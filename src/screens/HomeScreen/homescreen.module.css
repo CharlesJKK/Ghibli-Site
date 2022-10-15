@@ -1,0 +1,64 @@
+.divConteiner{
+    background-image: url('./fundo.jpg');
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+}.divConteinerChihiro{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    width: 35%;
+    
+}
+.filmName{
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+}
+.filmTxt{
+    font-size: 18px;
+    color: pink;
+}
+.filmButton{
+    margin-left: 60%;
+    background-image: linear-gradient(to right, rgb(219, 20, 20), rgb(112, 18, 18));
+    border-color: rgb(167, 36, 36) ;
+    width: 20%;
+    height: 5vh;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px #ca4218;
+    cursor: pointer;
+}
+.imgStudio{
+    max-width: 10%;
+    max-height: 10%;
+}
+.divGotoGhibliSite{
+    margin-left: 2%;
+    top: 5%
+}
+.botoesConteiner{
+    position: absolute;
+    width: 40%;
+    text-align: end;
+    margin-right: 5%;
+    left: 40%;
+    top: 30px
+}
+.button{
+    width: 13%;
+    height: 30px;
+    margin-left: 10%;
+    border-radius: 50px;
+    border-color: pink;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(240, 113, 134), rgb(172, 30, 54));
+    box-shadow: 5px 5px 5px #304b7a;
+}
+.button[type="button"]:hover{
+    transition: .5s;
+    background-image: linear-gradient(to right, rgb(155, 23, 104), rgb(90, 11, 64));
+    height: 50px;
+    width: 15%;
+}
