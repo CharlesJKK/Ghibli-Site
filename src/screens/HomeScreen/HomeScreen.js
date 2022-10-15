@@ -1,5 +1,6 @@
 import styles from './homescreen.module.css'
 import img from './teste.png'
+import { Link } from 'react-router-dom'
 
 export default function Homescreen(){
 
@@ -11,7 +12,7 @@ export default function Homescreen(){
             <div className={styles.botoesConteiner}>
                 <button type='button' className={styles.button}>Home</button>
                 <button type='button' className={styles.button}>Sobre</button>
-                <button type='button' className={styles.button}>Filmes</button>
+                <Link to={'Films'}><button type='button' className={styles.button}>Filmes</button></Link>  
                 <button type='button' className={styles.button}>Personagens</button>
             </div>
             <div className={styles.divGotoGhibliSite}>
