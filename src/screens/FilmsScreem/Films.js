@@ -6,20 +6,25 @@ export default function Films(){
     
     return(
         <div className={styles.divfilms} >
-            <h1>Estúdio Ghibli</h1>
+            <h1 className={styles.h1}>Estúdio Ghibli</h1>
             <p className={styles.ptex1}>Lista de filmes</p>
             
             <div className={styles.divbox}>
 
+            <div className={styles.divimg}>
             <img className={styles.img} src={img}/>
-            <h2>TESTE TESTE</h2>
+            <p className={styles.p}>Detalhes</p>
+            </div>
 
+            <div className={styles.divimg}>
             <img className={styles.img} src={img2}/>
-            <h3 className={styles.h2}>TESTE TESTE</h3>
+            <p className={styles.p}>Detalhes</p>
+            </div>
 
+            <div className={styles.divimg}>
             <img className={styles.img} src={img3}/>
-            <h4 >TESTE TESTE</h4>
-            
+            <p className={styles.p}>Detalhes</p>
+            </div>
             </div>
         </div>
     )

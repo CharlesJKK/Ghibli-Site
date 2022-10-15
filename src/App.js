@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Homescreen from './screens/HomeScreen/HomeScreen';
-import Films from './screens/HomeScreen/FilmsScreem/Films';
+import Films from './screens/FilmsScreem/Films';
 
 function App() {
   return (
