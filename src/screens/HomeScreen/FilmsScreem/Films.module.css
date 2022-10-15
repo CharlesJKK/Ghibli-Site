@@ -1,0 +1,30 @@
+.divfilms{
+    background-image: url('fundoHome.png');
+    background-size: cover;
+    box-sizing: border-box;
+    height: 100vh;
+    padding-top: 5px;
+}.ptex1{
+    background-color: rgb(97, 97, 231);
+    border-radius: 10%;
+    font-size: 30px;
+    text-align: center;
+    height: 4vh;
+    
+
+}.divbox{
+    width: 100%;
+	display: flex;
+    text-align: center;
+    
+}.img{
+    max-width: 110%;
+    max-height: 110%;
+    
+}.h2{
+    position: relative;
+    top: 550px;
+    right: 250px;
+
+
+}
