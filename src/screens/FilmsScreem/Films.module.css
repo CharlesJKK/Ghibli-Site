@@ -1,9 +1,9 @@
 .divfilms{
     background-image: url('fundoHome.png');
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
-    height: 100vh;
-    padding-top: 5px;
+  
 }.ptex1{
     background-color: rgb(97, 97, 231);
     border-radius: 10%;
@@ -18,8 +18,9 @@
     text-align: center;
     
 }.img{
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 15%;
+    max-height: 15%;
+    display: inline-block
     
 }.p{
     margin-left: 40%;
@@ -30,9 +31,21 @@
     box-shadow: 5px 5px 5px #ca4218;
     cursor: pointer;
 }.divimg{
-    margin-left: 10%;
+    margin-left: 10%; 
+    display: inline-block
+    
+    
     
 }.h1{
     text-align: center;
     color: aliceblue;
+}.containerdesc{
+    color: azure;
+    width: 30%; 
+    margin: 10px;
+    font-size: 15px;
+
+}.title{
+    color: azure;
+    font-size: 15px;
 }
