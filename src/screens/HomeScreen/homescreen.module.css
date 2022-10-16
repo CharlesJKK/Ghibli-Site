@@ -42,15 +42,13 @@
 }
 .botoesConteiner{
     position: absolute;
-    width: 40%;
+    width: 100%;
     text-align: end;
     margin-right: 5%;
-    left: 40%;
     top: 30px;
 }
 .button{
-    height: 30px;
-    margin-left: 10%;   
+    height: 30px;   
     border-radius: 50px;
     border-color: pink;
     cursor: pointer;
@@ -59,6 +57,7 @@
     font-family: Ghibli;
     color: #ffffff;
     font-size: 20px;
+    margin-right: 5%;
 }
 .button[type="button"]:hover{
     transition: .5s;
