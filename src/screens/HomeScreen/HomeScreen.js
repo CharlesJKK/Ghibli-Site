@@ -1,5 +1,5 @@
 import styles from './homescreen.module.css'
-import img from './teste.png'
+import img from './logo.png'
 import { Link } from 'react-router-dom'
 
 export default function Homescreen(){
@@ -12,8 +12,8 @@ export default function Homescreen(){
             <div className={styles.botoesConteiner}>
                 <button type='button' className={styles.button}>Home</button>
                 <button type='button' className={styles.button}>Sobre</button>
-                <Link to={'Films'}><button type='button' className={styles.button}>Filmes</button></Link>  
-                <button type='button' className={styles.button}>Personagens</button>
+                <Link to={'Films'}><button type='button' className={styles.button}>Filmes</button></Link> 
+                <Link to={'Characters'}><button type='button' className={styles.button}>Personagens</button></Link>  
             </div>
             <div className={styles.divGotoGhibliSite}>
                 <a href='https://www.ghibli.jp' target={'_blank'} rel="noopener noreferrer">
