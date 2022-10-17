@@ -1,5 +1,8 @@
 .divfilms{
     background-image: url('fundoHome.png');
+    display: table;
+    width: 100%;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,7 +23,8 @@
 }.img{
     max-width: 15%;
     max-height: 15%;
-    display: inline-block
+    display: inline-block;
+    width: 20%;
     
 }.p{
     margin-left: 40%;
@@ -31,14 +35,19 @@
     box-shadow: 5px 5px 5px #ca4218;
     cursor: pointer;
 }.divimg{
-    margin-left: 10%; 
-    display: inline-block
+    
+    display: inline-flex;
+    width: 50%;
+    margin-top: 5%;
     
     
     
 }.h1{
     text-align: center;
-    color: aliceblue;
+    color: aliceblue;   
+    font-family: Ghibli;
+
+    
 }.containerdesc{
     color: azure;
     width: 30%; 
@@ -48,4 +57,32 @@
 }.title{
     color: azure;
     font-size: 15px;
+
+}.button{
+    height: 30px;   
+    border-radius: 50px;
+    border-color: pink;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(155, 23, 104), rgb(90, 11, 64));
+    box-shadow: 5px 5px 5px #500e61;
+    font-family: Ghibli;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
+.button[type="button"]:hover{
+    transition: .5s;
+    background-image: linear-gradient(to right, rgb(150, 20, 100), rgb(56, 2, 38));
+    height: 50px;
+    box-shadow: 5px 5px 5px #7c0799;
+}.divh1{
+    background-image: linear-gradient(to right, rgb(150, 20, 100), rgb(56, 2, 38));
+    width: 70%;
+    height: 3vh;
+    margin-left: 15%;
+    border-radius: 50px;
+}.divbuttom{
+    margin-left: 50%;
 }
