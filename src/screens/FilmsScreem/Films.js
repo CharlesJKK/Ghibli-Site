@@ -26,23 +26,24 @@ export default function Films(){
                 <Link to={'/'}><button type='button' className={styles.button}>Home</button></Link>
                 <button type='button' className={styles.button}>Sobre</button>
                 <button type='button' className={styles.button}>Filmes</button>
-                <button type='button' className={styles.button}>Personagens</button>
+                <Link  to={'Characters'}><button type='button' className={styles.button}>Personagens</button></Link>
                 </div>
                 <div className={styles.divh1}>
                     <h1 className={ styles.h1}>
                         Lista de filmes
                     </h1>
                 </div>
+                
             {films.map((films, key) => {
                                         return(
-                    
-                                   
-                     <div className={styles.divimg}>
-        
-                            <div className={styles.h1}><title>Lista de filmes</title></div>
-                            <img className={styles.img} src={films.image}/>
-                            <p/>{films.description}                               
-                                </div>
+            <div>
+            
+            <div className={styles.divimg}>
+            <img className={styles.img} src={films.image}/>
+            <h1 className={styles.h1}>{films.title}</h1>
+            <p className={styles.p1}>{films.description}  </p>                             
+            </div>
+            </div>
                                     
                 )
             }

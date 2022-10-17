@@ -25,6 +25,8 @@
     max-height: 15%;
     display: inline-block;
     width: 20%;
+    margin-left: 43%;
+    
     
 }.p{
     margin-left: 40%;
@@ -36,9 +38,10 @@
     cursor: pointer;
 }.divimg{
     
-    display: inline-flex;
+    display: inline-block;
     width: 50%;
     margin-top: 5%;
+    margin-left: 25%;
     
     
     
@@ -46,6 +49,7 @@
     text-align: center;
     color: aliceblue;   
     font-family: Ghibli;
+    margin: 20px;
 
     
 }.containerdesc{
@@ -57,7 +61,6 @@
 }.title{
     color: azure;
     font-size: 15px;
-
 }.button{
     height: 30px;   
     border-radius: 50px;
@@ -85,4 +88,10 @@
     border-radius: 50px;
 }.divbuttom{
     margin-left: 50%;
+}.p1{
+    display: flex;
+    color: #ffffff;
+}.p2{
+    font-size: 30px;
+    color: #ffffff;
 }
