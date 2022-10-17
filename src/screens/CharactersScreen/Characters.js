@@ -28,6 +28,18 @@ import imgShishigami from './Shishigami.png';
 import imgMoro from './Moro.png';
 import imgJiji from './Jiji.png';
 import imgSatsuki from './Satsuki.png';
+import imgMei from './Mei.png';
+import imgTatsuo from './Tatsuo.png';
+import imgYasuko from './Yasuko.png';
+import imgGranny from './Granny.png';
+import imgKanta from './Kanta.png';
+import imgTotoro from './Totoro.png';
+import imgChuTotoro from './ChuTotoro.png';
+import imgChibiTotoro from './ChibiTotoro.png';
+import imgCatBus from './CatBus.png';
+import imgNiya from './Niya.png';
+
+
 
 
 
@@ -167,6 +179,39 @@ export default function CharacterScreen(){
 
                     }else if(personagens.name === 'Satsuki Kusakabe'){ 
                         return <img src={imgSatsuki} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Mei Kusakabe'){ 
+                        return <img src={imgMei} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Mei Kusakabe'){ 
+                        return <img src={imgMei} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Tatsuo Kusakabe'){ 
+                        return <img src={imgTatsuo} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Yasuko Kusakabe'){ 
+                        return <img src={imgYasuko} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Granny'){ 
+                        return <img src={imgGranny} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Kanta Ōgaki'){ 
+                        return <img src={imgKanta} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Totoro'){ 
+                        return <img src={imgTotoro} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Chu Totoro'){ 
+                        return <img src={imgChuTotoro} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Chibi Totoro'){ 
+                        return <img src={imgChibiTotoro} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Catbus'){ 
+                        return <img src={imgCatBus} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Niya'){ 
+                        return <img src={imgNiya} className={styles.imgCharacters}/>;
 
                     }
                     
