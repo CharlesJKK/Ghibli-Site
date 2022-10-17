@@ -22,18 +22,22 @@
     max-height: 10%;
 }
 .conteinerCharacters{
-    background-color: aliceblue;
+    background-color: rgb(7, 151, 151);
     width: 12%;
     display: inline-block;
-    margin: 10px;
+    margin-left: 2%;
+    margin-top: 2%;
     text-align: center;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px #3f0799;
 }
 .imgCharacters{
     max-width: 80%;
     max-height: 80%;
     border-radius: 20px;
+    margin-top: 5%;
 }
 .textoCharacters{
-    font-size: 10px;
+    font-size: 11px;
+    font-family: Ghibli;
 }
