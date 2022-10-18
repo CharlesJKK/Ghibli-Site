@@ -26,7 +26,7 @@ export default function Films(){
                 <Link to={'/'}><button type='button' className={styles.button}>Home</button></Link>
                 <button type='button' className={styles.button}>Sobre</button>
                 <button type='button' className={styles.button}>Filmes</button>
-                <Link  to={'Characters'}><button type='button' className={styles.button}>Personagens</button></Link>
+                <Link to={'Characters'}><button type='button' className={styles.button}>Personagens</button></Link>
                 </div>
                 <div className={styles.divh1}>
                     <h1 className={ styles.h1}>
