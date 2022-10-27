@@ -1,43 +1,68 @@
 import React, {useEffect, useState} from "react";
 import api from "../../api/api";
 import styles from './characters.module.css';
-import { Link } from "react-router-dom";
-import img from './logo.png';
-import imgHaku from './Haku.jpg';
-import imgPazu from './Pazu.jpg';
-import imgLusheeta from './Lusheeta.jpg';
-import imgDola from './Dola.jpg';
-import imgMuska from './Muska.jpg';
-import imgUncle from './Uncle.jpg';
-import imgMouro from './Muoro.webp';
-import imgDuffi from './Duffi.webp';
-import imgLouis from './Charlies.webp';
-import imgCharles from './Charles.png';
-import imgHenri from './Henri.png';
-import imgMotro from './Motro.png';
-import imgOkami from './Okami.png';
-import imgAshitaka from './Ashitaka.png';
-import imgSan from './San.png';
-import imgEboshi from './Eboshi.png';
-import imgJigo from './Jigo.png';
-import imgKohroku from './Kohroku.png';
-import imgGonza from './Gonza.png';
-import imgHiisama from './HiiSama.png';
-import imgYakul from './Yakul.png';
-import imgShishigami from './Shishigami.png';
-import imgMoro from './Moro.png';
-import imgJiji from './Jiji.png';
-import imgSatsuki from './Satsuki.png';
-import imgMei from './Mei.png';
-import imgTatsuo from './Tatsuo.png';
-import imgYasuko from './Yasuko.png';
-import imgGranny from './Granny.png';
-import imgKanta from './Kanta.png';
-import imgTotoro from './Totoro.png';
-import imgChuTotoro from './ChuTotoro.png';
-import imgChibiTotoro from './ChibiTotoro.png';
-import imgCatBus from './CatBus.png';
-import imgNiya from './Niya.png';
+import Header from "../../components/headerComponent/Header";
+import imgHaku from '../../assets/characters/Haku.jpg';
+import imgPazu from '../../assets/characters/Pazu.jpg';
+import imgLusheeta from '../../assets/characters/Lusheeta.jpg';
+import imgDola from '../../assets/characters/Dola.jpg';
+import imgMuska from '../../assets/characters/Muska.jpg';
+import imgUncle from '../../assets/characters/Uncle.jpg';
+import imgMouro from '../../assets/characters/Muoro.webp';
+import imgDuffi from '../../assets/characters/Duffi.webp';
+import imgLouis from '../../assets/characters/Charlies.webp';
+import imgCharles from '../../assets/characters/Charles.png';
+import imgHenri from '../../assets/characters/Henri.png';
+import imgMotro from '../../assets/characters/Motro.png';
+import imgOkami from '../../assets/characters/Okami.png';
+import imgAshitaka from '../../assets/characters/Ashitaka.png';
+import imgSan from '../../assets/characters/San.png';
+import imgEboshi from '../../assets/characters/Eboshi.png';
+import imgJigo from '../../assets/characters/Jigo.png';
+import imgKohroku from '../../assets/characters/Kohroku.png';
+import imgGonza from '../../assets/characters/Gonza.png';
+import imgHiisama from '../../assets/characters/HiiSama.png';
+import imgYakul from '../../assets/characters/Yakul.png';
+import imgShishigami from '../../assets/characters/Shishigami.png';
+import imgMoro from '../../assets/characters/Moro.png';
+import imgJiji from '../../assets/characters/Jiji.png';
+import imgSatsuki from '../../assets/characters/Satsuki.png';
+import imgMei from '../../assets/characters/Mei.png';
+import imgTatsuo from '../../assets/characters/Tatsuo.png';
+import imgYasuko from '../../assets/characters/Yasuko.png';
+import imgGranny from '../../assets/characters/Granny.png';
+import imgKanta from '../../assets/characters/Kanta.png';
+import imgTotoro from '../../assets/characters/Totoro.png';
+import imgChuTotoro from '../../assets/characters/ChuTotoro.png';
+import imgChibiTotoro from '../../assets/characters/ChibiTotoro.png';
+import imgCatBus from '../../assets/characters/CatBus.png';
+import imgNiya from '../../assets/characters/Niya.png';
+import imgMuta from '../../assets/characters/Muta.png';
+import imgCatKing from '../../assets/characters/CatKing.png';
+import imgYuki from '../../assets/characters/Yuki.png';
+import imgHaru from '../../assets/characters/Haru.png';
+import imgBHumbert from '../../assets/characters/BHumbert.png';
+import imgNatori from '../../assets/characters/Natori.png';
+import imgColonelMuska from '../../assets/characters/ColonelMuska.png';
+import imgPorcoRosso from '../../assets/characters/PorcoRosso.png';
+import imgSosuke from '../../assets/characters/Sosuke.png';
+import imgKiki from '../../assets/characters/Kiki.png';
+import imgLaputianRobot from '../../assets/characters/LaputianRobot.png';
+import imgChihiroOgino from '../../assets/characters/ChihiroOgino.png';
+import imgOsono from '../../assets/characters/Osono.png';
+import imgUrsula from '../../assets/characters/Ursula.png';
+import imgTombo from '../../assets/characters/Tombo.png';
+import imgMadame from '../../assets/characters/Madame.png';
+import imgEarwing from '../../assets/characters/Earwing.png';
+import imgBellaYaga from '../../assets/characters/BellaYaga.png';
+import imgMandrake from '../../assets/characters/Mandrake.png';
+import imgScarletRose from '../../assets/characters/ScarletRose.png';
+import imgThomas from '../../assets/characters/Thomas.png';
+import imgCustard from '../../assets/characters/Custard.png';
+
+
+
+
 
 
 
@@ -58,9 +83,7 @@ export default function CharacterScreen(){
 
     return(
         <div className={styles.divConteiner}>
-            <div className={styles.divGotoGhibliSite}>
-                <Link to={'/'}><img src={img} className={styles.imgStudio}/></Link>
-            </div>
+            <Header/>
             <div>
                 <h1 className={styles.h1}>Personagens</h1>
             </div>
@@ -212,6 +235,72 @@ export default function CharacterScreen(){
 
                     }else if(personagens.name === 'Niya'){ 
                         return <img src={imgNiya} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Renaldo Moon aka Moon aka Muta'){ 
+                        return <img src={imgMuta} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Cat King'){ 
+                        return <img src={imgCatKing} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Yuki'){ 
+                        return <img src={imgYuki} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Haru'){ 
+                        return <img src={imgHaru} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Baron Humbert von Gikkingen'){ 
+                        return <img src={imgBHumbert} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Natori'){ 
+                        return <img src={imgNatori} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Colonel Muska'){ 
+                        return <img src={imgColonelMuska} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Porco Rosso'){ 
+                        return <img src={imgPorcoRosso} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Sosuke'){ 
+                        return <img src={imgSosuke} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Kiki'){ 
+                        return <img src={imgKiki} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Laputian Robot'){ 
+                        return <img src={imgLaputianRobot} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Chihiro Ogino'){ 
+                        return <img src={imgChihiroOgino} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Osono'){ 
+                        return <img src={imgOsono} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Ursula'){ 
+                        return <img src={imgUrsula} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Tombo'){ 
+                        return <img src={imgTombo} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Madame'){ 
+                        return <img src={imgMadame} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Earwig'){ 
+                        return <img src={imgEarwing} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Bella Yaga'){ 
+                        return <img src={imgBellaYaga} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Mandrake'){ 
+                        return <img src={imgMandrake} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Scarlet Rose'){ 
+                        return <img src={imgScarletRose} className={styles.imgCharacters}/>;
+                        
+                    }else if(personagens.name === 'Thomas'){ 
+                        return <img src={imgThomas} className={styles.imgCharacters}/>;
+
+                    }else if(personagens.name === 'Custard'){ 
+                        return <img src={imgCustard} className={styles.imgCharacters}/>;
 
                     }
                     

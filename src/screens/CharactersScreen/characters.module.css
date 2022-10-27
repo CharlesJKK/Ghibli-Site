@@ -13,20 +13,13 @@
     font-size: 50px;
     color: rgb(7, 151, 151);
 }
-.divGotoGhibliSite{
-    margin-left: 2%;
-    top: 5%
-}
-.imgStudio{
-    max-width: 10%;
-    max-height: 10%;
-}
 .conteinerCharacters{
     background-color: rgb(7, 151, 151);
     width: 12%;
     display: inline-block;
     margin-left: 2%;
     margin-top: 2%;
+    margin-bottom: 1%;
     text-align: center;
     border-radius: 15px;
     box-shadow: 5px 5px 5px #3f0799;
