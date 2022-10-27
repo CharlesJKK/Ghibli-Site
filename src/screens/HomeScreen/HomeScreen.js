@@ -1,6 +1,6 @@
-import styles from './homescreen.module.css'
-import img from './logo.png'
-import { Link } from 'react-router-dom'
+import styles from './homescreen.module.css';
+import img2 from '../../assets/homescreen/teste.png';
+import Header from '../../components/headerComponent/Header';
 
 export default function Homescreen(){
 
@@ -9,19 +9,8 @@ export default function Homescreen(){
 
     return(
         <div className={styles.divConteiner}>
-            <div className={styles.botoesConteiner}>
-                <button type='button' className={styles.button}>Home</button>
-                <button type='button' className={styles.button}>Sobre</button>
-                <Link to={'Films'}><button type='button' className={styles.button}>Filmes</button></Link> 
-                <Link to={'Characters'}><button type='button' className={styles.button}>Personagens</button></Link>  
-            </div>
-            <div className={styles.divGotoGhibliSite}>
-                <a href='https://www.ghibli.jp' target={'_blank'} rel="noopener noreferrer">
-                    <img src={img} className={styles.imgStudio}/>
-                </a>
-            </div>
+            <Header/>
             <div>
-
             </div>
             <div className={styles.divConteinerChihiro}>
                 <p className={styles.filmName}>A viagem de chihiro
@@ -34,6 +23,9 @@ export default function Homescreen(){
                         Watch on Netflix
                     </button>
                 </a>
+            </div>
+            <div>
+                <img src={img2} className={styles.imgCenter}/>
             </div>
         </div>
     )

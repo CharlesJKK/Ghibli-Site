@@ -3,6 +3,7 @@ import api from '../../api/api'
 import { useEffect } from 'react'
 import styles from './Films.module.css'
 import { Link } from 'react-router-dom'
+import Header from '../../components/headerComponent/Header';
 export default function Films(){
    
     const [films, setFilms] = useState([])
@@ -22,12 +23,7 @@ export default function Films(){
         
         
         <div className={styles.divfilms} >
-                <div className={styles.divbuttom}>
-                <Link to={'/'}><button type='button' className={styles.button}>Home</button></Link>
-                <button type='button' className={styles.button}>Sobre</button>
-                <button type='button' className={styles.button}>Filmes</button>
-                <Link  to={'Characters'}><button type='button' className={styles.button}>Personagens</button></Link>
-                </div>
+                <Header/>
                 <div className={styles.divh1}>
                     <h1 className={ styles.h1}>
                         Lista de filmes
