@@ -1,0 +1,25 @@
+.divConteiner{
+    background-image: linear-gradient(to bottom right, rgb(11, 98, 197), rgb(6, 48, 95)) ;
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1{
+    font-family: GhibliBold;
+    font-size: 40px;
+    text-align: center;
+}
+.ConteinerTexto{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p{
+    text-align: center;
+    font-family: Ghibli;
+    color: rgb(209, 78, 100);
+    font-size: 30px;
+}
