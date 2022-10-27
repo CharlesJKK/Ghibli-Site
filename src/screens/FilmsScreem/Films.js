@@ -2,7 +2,6 @@ import React, {useState} from 'react'
 import api from '../../api/api'
 import { useEffect } from 'react'
 import styles from './Films.module.css'
-import { Link } from 'react-router-dom'
 import Header from '../../components/headerComponent/Header';
 export default function Films(){
    
