@@ -1,5 +1,5 @@
 .divConteiner{
-    background-image: url('./fundoCha.png');
+    background-image: linear-gradient(to bottom right, rgb(11, 98, 197), rgb(6, 48, 95)) ;
     display: table;
     width: 100%;
     height: 100vh;

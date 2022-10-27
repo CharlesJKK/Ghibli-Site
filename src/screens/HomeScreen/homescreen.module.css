@@ -34,7 +34,6 @@
 }
 .imgCenter{
     margin-left: 50%;
-    max-width: 100%;
     width: 35%;
-    margin-top: 5%;
+    margin-top: 5vh;
 }

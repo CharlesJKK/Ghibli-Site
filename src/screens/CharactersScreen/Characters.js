@@ -60,14 +60,6 @@ import imgScarletRose from '../../assets/characters/ScarletRose.png';
 import imgThomas from '../../assets/characters/Thomas.png';
 import imgCustard from '../../assets/characters/Custard.png';
 
-
-
-
-
-
-
-
-
 export default function CharacterScreen(){
 
     const [personagens, setPersonagens] = useState([]);
