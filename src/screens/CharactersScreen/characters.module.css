@@ -34,3 +34,15 @@
     font-size: 11px;
     font-family: Ghibli;
 }
+.conteinerCharacters:hover{
+    background-color: rgb(6, 49, 141);
+    width: 12%;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #3f0799;
+    transform: scale(1.10);
+}
