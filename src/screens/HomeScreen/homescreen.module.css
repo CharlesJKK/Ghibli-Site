@@ -31,7 +31,7 @@
     cursor: pointer;
 }
 .imgCenter{
-    margin-left: 50%;
-    width: 35%;
+    margin-left: 35%;
+    min-width: 400px;
     margin-top: 5%;
 }

@@ -5,6 +5,11 @@ import Header from '../../components/headerComponent/Header';
 export default function Homescreen(){
 
 
+    /*<div class='box'>
+    <div class='wave -one'></div>
+    <div class='wave -two'></div>
+    <div class='wave -three'></div>
+  </div>*/
 
 
     return(

@@ -4,17 +4,14 @@
 }
 .divGotoGhibliSite{
     margin-left: 2%;
-    top: 5%
+    margin-top: -2.5%
 }
 .botoesConteiner{
-    position: absolute;
     width: 100%;
     text-align: end;
     margin-right: 5%;
-    top: 30px;
 }
 .button{
-    height: 30px;   
     border-radius: 50px;
     border-color: pink;
     cursor: pointer;
@@ -24,6 +21,7 @@
     color: #ffffff;
     font-size: 20px;
     margin-right: 5%;
+    margin-top: 1%
 }
 .button[type="button"]:hover{
     transition: .5s;
