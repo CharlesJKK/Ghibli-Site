@@ -1,6 +1,6 @@
 import img from '../../assets/homescreen/logo.png';
 import styles from './header.module.css';
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"
 
 export default function Header(){
     return(
