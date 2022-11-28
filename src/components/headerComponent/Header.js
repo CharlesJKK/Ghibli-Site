@@ -1,6 +1,7 @@
 import img from '../../assets/homescreen/logo.png';
 import styles from './header.module.css';
 import { Link } from "react-router-dom";
+import { Button } from 'react-bootstrap';
 
 export default function Header(){
     return(
