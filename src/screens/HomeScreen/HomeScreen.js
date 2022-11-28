@@ -4,16 +4,8 @@ import Header from '../../components/headerComponent/Header';
 
 export default function Homescreen(){
 
-
-    /*<div class='box'>
-    <div class='wave -one'></div>
-    <div class='wave -two'></div>
-    <div class='wave -three'></div>
-  </div>*/
-
-
     return(
-        <div className={styles.divConteiner}>
+        <div class="bg-gradient-to-br from-blue-500 to-green-400 w-full h-screen table">
             <Header/>
             <div>
             </div>
