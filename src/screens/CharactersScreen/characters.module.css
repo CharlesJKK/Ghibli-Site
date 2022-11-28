@@ -15,7 +15,6 @@
 }
 .conteinerCharacters{
     background-color: rgb(7, 151, 151);
-    width: 12%;
     display: inline-block;
     margin-left: 2%;
     margin-top: 2%;
@@ -29,6 +28,7 @@
     max-height: 80%;
     border-radius: 20px;
     margin-top: 5%;
+    margin-left: 10%
 }
 .textoCharacters{
     font-size: 11px;
