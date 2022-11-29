@@ -21,10 +21,10 @@ export default function Films(){
     return(
         
         
-        <div className={styles.divfilms} >
+        <div class="bg-fundo table w-full bg-center bg-repeat" >
                 <Header/>
-                <div className={styles.divh1}>
-                    <h1 className={ styles.h1}>
+                <div class="bg-gradient-to-r from-blue-900 to-green-700 ml-40 w-70 h-3 rounded-50">
+                    <h1 class="text-center text-slate-100 font-GhibliNormal m-20 ">
                         Lista de filmes
                     </h1>
                 </div>
@@ -33,10 +33,10 @@ export default function Films(){
                                         return(
             <div>
             
-            <div className={styles.divimg}>
-            <img className={styles.img} src={films.image}/>
-            <h1 className={styles.h1}>{films.title}</h1>
-            <p className={styles.p1}>{films.description}  </p>                             
+            <div class= "inline-block w-1/2 mt-5 ml-25 ">
+            <img class= " max-h-15 inline-block w-1/5 ml-40" src={films.image}/>
+            <h1 class= "text-center text-slate-100 font-GhibliNormal m-20">{films.title}</h1>
+            <p class= "flex text-slate-100 ">{films.description}  </p>                             
             </div>
             </div>
                                     
