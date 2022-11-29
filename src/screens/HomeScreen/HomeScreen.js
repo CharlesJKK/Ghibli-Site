@@ -5,11 +5,11 @@ import Header from '../../components/headerComponent/Header';
 export default function Homescreen(){
 
     return(
-        <div class="bg-gradient-to-br from-blue-500 to-green-400 w-full h-screen table">
+        <div class="bg-gradient-to-br from-blue-500 to-green-400 w-full h-screen overflow-x-hidden">
             <Header/>
             <div>
             </div>
-            <div className={styles.divConteinerChihiro}>
+            <div class="mt-44 w-1/3 ml-4">
                 <p className={styles.filmName}>A viagem de chihiro
                     <p className={styles.filmTxt}>
                         Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los.
@@ -20,9 +20,8 @@ export default function Homescreen(){
                         Watch on Netflix
                     </button>
                 </a>
-            </div>
-            <div>
-                <img src={img2} className={styles.imgCenter}/>
+                
+            <img src={img2} className={styles.imgCenter} alt='chihiro correndo'/>
             </div>
         </div>
     )

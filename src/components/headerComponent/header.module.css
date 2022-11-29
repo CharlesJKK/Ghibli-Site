@@ -13,11 +13,13 @@
     color: #ffffff;
     font-size: 20px;
     margin-right: 5%;
-    margin-top: 1%
+    margin-top: 1%;
+    padding: 5px
 }
 .button[type="button"]:hover{
     transition: .5s;
     background-image: linear-gradient(to right, rgb(150, 20, 100), rgb(56, 2, 38));
     height: 50px;
     box-shadow: 5px 5px 5px #7c0799;
+    padding: 10px
 }

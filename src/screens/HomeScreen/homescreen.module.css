@@ -25,13 +25,15 @@
     margin-left: 65%;   
     background-image: linear-gradient(to right, rgb(219, 20, 20), rgb(112, 18, 18));
     border-color: rgb(167, 36, 36) ;
-    height: 5vh;
     border-radius: 50px;
     box-shadow: 5px 5px 5px #ca4218;
     cursor: pointer;
+    width: auto;
+    padding: 8px
 }
 .imgCenter{
-    margin-left: 35%;
-    min-width: 400px;
-    margin-top: 5%;
+    width: 400px;
+    min-width: 300px;
+    margin-left: 100%;
+    margin-top: -75%;
 }
