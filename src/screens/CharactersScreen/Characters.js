@@ -74,10 +74,10 @@ export default function CharacterScreen(){
     }, [])
 
     return(
-        <div className={styles.divConteiner}>
+        <div class="bg-gradient-to-br from-blue-700 to-blue-500">
             <Header/>
             <div>
-                <h1 className={styles.h1}>Personagens</h1>
+                <h1 class="text-center font-GhibliBold text-5xl text-emerald-400">Personagens</h1>
             </div>
             {personagens.map((personagens, key) => {
 
@@ -120,179 +120,179 @@ export default function CharacterScreen(){
 
                 function ImgAlt(){
                     if(personagens.name === 'Haku'){
-                        return <img src={imgHaku} className={styles.imgCharacters}/>;
+                        return <img src={imgHaku} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Pazu'){
-                        return <img src={imgPazu} className={styles.imgCharacters}/>;
+                        return <img src={imgPazu} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Lusheeta Toel Ul Laputa'){
-                        return <img src={imgLusheeta} className={styles.imgCharacters}/>;
+                        return <img src={imgLusheeta} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Captain Dola'){
-                        return <img src={imgDola} className={styles.imgCharacters}/>;
+                        return <img src={imgDola} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Romska Palo Ul Laputa'){
-                        return <img src={imgMuska} className={styles.imgCharacters}/>;
+                        return <img src={imgMuska} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Uncle Pom'){
-                        return <img src={imgUncle} className={styles.imgCharacters}/>;
+                        return <img src={imgUncle} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'General Mouro'){
-                        return <img src={imgMouro} className={styles.imgCharacters}/>;
+                        return <img src={imgMouro} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Duffi'){
-                        return <img src={imgDuffi} className={styles.imgCharacters}/>;
+                        return <img src={imgDuffi} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Louis'){
-                        return <img src={imgLouis} className={styles.imgCharacters}/>;
+                        return <img src={imgLouis} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }
                     else if(personagens.name === 'Charles'){ 
-                        return <img src={imgCharles} className={styles.imgCharacters}/>;
+                        return <img src={imgCharles} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Henri'){ 
-                        return <img src={imgHenri} className={styles.imgCharacters}/>;
+                        return <img src={imgHenri} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Motro'){ 
-                        return <img src={imgMotro} className={styles.imgCharacters}/>;
+                        return <img src={imgMotro} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Okami'){ 
-                        return <img src={imgOkami} className={styles.imgCharacters}/>;
+                        return <img src={imgOkami} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Ashitaka'){ 
-                        return <img src={imgAshitaka} className={styles.imgCharacters}/>;
+                        return <img src={imgAshitaka} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'San'){ 
-                        return <img src={imgSan} className={styles.imgCharacters}/>;
+                        return <img src={imgSan} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Eboshi'){ 
-                        return <img src={imgEboshi} className={styles.imgCharacters}/>;
+                        return <img src={imgEboshi} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Jigo'){ 
-                        return <img src={imgJigo} className={styles.imgCharacters}/>;
+                        return <img src={imgJigo} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Kohroku'){ 
-                        return <img src={imgKohroku} className={styles.imgCharacters}/>;
+                        return <img src={imgKohroku} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Gonza'){ 
-                        return <img src={imgGonza} className={styles.imgCharacters}/>;
+                        return <img src={imgGonza} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Hii-sama'){ 
-                        return <img src={imgHiisama} className={styles.imgCharacters}/>;
+                        return <img src={imgHiisama} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Yakul'){ 
-                        return <img src={imgYakul} className={styles.imgCharacters}/>;
+                        return <img src={imgYakul} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Shishigami'){ 
-                        return <img src={imgShishigami} className={styles.imgCharacters}/>;
+                        return <img src={imgShishigami} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Moro'){ 
-                        return <img src={imgMoro} className={styles.imgCharacters}/>;
+                        return <img src={imgMoro} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Jiji'){ 
-                        return <img src={imgJiji} className={styles.imgCharacters}/>;
+                        return <img src={imgJiji} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Satsuki Kusakabe'){ 
-                        return <img src={imgSatsuki} className={styles.imgCharacters}/>;
+                        return <img src={imgSatsuki} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Mei Kusakabe'){ 
-                        return <img src={imgMei} className={styles.imgCharacters}/>;
+                        return <img src={imgMei} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Mei Kusakabe'){ 
-                        return <img src={imgMei} className={styles.imgCharacters}/>;
+                        return <img src={imgMei} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Tatsuo Kusakabe'){ 
-                        return <img src={imgTatsuo} className={styles.imgCharacters}/>;
+                        return <img src={imgTatsuo} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Yasuko Kusakabe'){ 
-                        return <img src={imgYasuko} className={styles.imgCharacters}/>;
+                        return <img src={imgYasuko} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Granny'){ 
-                        return <img src={imgGranny} className={styles.imgCharacters}/>;
+                        return <img src={imgGranny} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Kanta Ōgaki'){ 
-                        return <img src={imgKanta} className={styles.imgCharacters}/>;
+                        return <img src={imgKanta} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Totoro'){ 
-                        return <img src={imgTotoro} className={styles.imgCharacters}/>;
+                        return <img src={imgTotoro} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Chu Totoro'){ 
-                        return <img src={imgChuTotoro} className={styles.imgCharacters}/>;
+                        return <img src={imgChuTotoro} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Chibi Totoro'){ 
-                        return <img src={imgChibiTotoro} className={styles.imgCharacters}/>;
+                        return <img src={imgChibiTotoro} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Catbus'){ 
-                        return <img src={imgCatBus} className={styles.imgCharacters}/>;
+                        return <img src={imgCatBus} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Niya'){ 
-                        return <img src={imgNiya} className={styles.imgCharacters}/>;
+                        return <img src={imgNiya} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Renaldo Moon aka Moon aka Muta'){ 
-                        return <img src={imgMuta} className={styles.imgCharacters}/>;
+                        return <img src={imgMuta} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Cat King'){ 
-                        return <img src={imgCatKing} className={styles.imgCharacters}/>;
+                        return <img src={imgCatKing} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Yuki'){ 
-                        return <img src={imgYuki} className={styles.imgCharacters}/>;
+                        return <img src={imgYuki} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Haru'){ 
-                        return <img src={imgHaru} className={styles.imgCharacters}/>;
+                        return <img src={imgHaru} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Baron Humbert von Gikkingen'){ 
-                        return <img src={imgBHumbert} className={styles.imgCharacters}/>;
+                        return <img src={imgBHumbert} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Natori'){ 
-                        return <img src={imgNatori} className={styles.imgCharacters}/>;
+                        return <img src={imgNatori} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Colonel Muska'){ 
-                        return <img src={imgColonelMuska} className={styles.imgCharacters}/>;
+                        return <img src={imgColonelMuska} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Porco Rosso'){ 
-                        return <img src={imgPorcoRosso} className={styles.imgCharacters}/>;
+                        return <img src={imgPorcoRosso} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Sosuke'){ 
-                        return <img src={imgSosuke} className={styles.imgCharacters}/>;
+                        return <img src={imgSosuke} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Kiki'){ 
-                        return <img src={imgKiki} className={styles.imgCharacters}/>;
+                        return <img src={imgKiki} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Laputian Robot'){ 
-                        return <img src={imgLaputianRobot} className={styles.imgCharacters}/>;
+                        return <img src={imgLaputianRobot} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Chihiro Ogino'){ 
-                        return <img src={imgChihiroOgino} className={styles.imgCharacters}/>;
+                        return <img src={imgChihiroOgino} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Osono'){ 
-                        return <img src={imgOsono} className={styles.imgCharacters}/>;
+                        return <img src={imgOsono} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Ursula'){ 
-                        return <img src={imgUrsula} className={styles.imgCharacters}/>;
+                        return <img src={imgUrsula} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Tombo'){ 
-                        return <img src={imgTombo} className={styles.imgCharacters}/>;
+                        return <img src={imgTombo} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Madame'){ 
-                        return <img src={imgMadame} className={styles.imgCharacters}/>;
+                        return <img src={imgMadame} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Earwig'){ 
-                        return <img src={imgEarwing} className={styles.imgCharacters}/>;
+                        return <img src={imgEarwing} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Bella Yaga'){ 
-                        return <img src={imgBellaYaga} className={styles.imgCharacters}/>;
+                        return <img src={imgBellaYaga} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Mandrake'){ 
-                        return <img src={imgMandrake} className={styles.imgCharacters}/>;
+                        return <img src={imgMandrake} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Scarlet Rose'){ 
-                        return <img src={imgScarletRose} className={styles.imgCharacters}/>;
+                        return <img src={imgScarletRose} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
                         
                     }else if(personagens.name === 'Thomas'){ 
-                        return <img src={imgThomas} className={styles.imgCharacters}/>;
+                        return <img src={imgThomas} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }else if(personagens.name === 'Custard'){ 
-                        return <img src={imgCustard} className={styles.imgCharacters}/>;
+                        return <img src={imgCustard} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
                     }
                     
