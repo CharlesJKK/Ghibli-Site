@@ -74,7 +74,7 @@ export default function CharacterScreen(){
     }, [])
 
     return(
-        <div class="bg-gradient-to-br from-blue-700 to-blue-500">
+        <div class="bg-gradient-to-br from-blue-700 to-blue-500 w-full h-screen">
             <Header/>
             <div>
                 <h1 class="text-center font-GhibliBold text-5xl text-emerald-400">Personagens</h1>
