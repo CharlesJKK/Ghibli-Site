@@ -59,6 +59,7 @@ import imgMandrake from '../../assets/characters/Mandrake.png';
 import imgScarletRose from '../../assets/characters/ScarletRose.png';
 import imgThomas from '../../assets/characters/Thomas.png';
 import imgCustard from '../../assets/characters/Custard.png';
+import mock from "../../mocks/personagensmock";
 
 export default function CharacterScreen(){
 
@@ -74,12 +75,12 @@ export default function CharacterScreen(){
     }, [])
 
     return(
-        <div class="bg-gradient-to-br from-blue-700 to-blue-500 w-full h-screen">
+        <div class="bg-gradient-to-br from-blue-700 to-blue-500">
             <Header/>
             <div>
                 <h1 class="text-center font-GhibliBold text-5xl text-emerald-400">Personagens</h1>
             </div>
-            {personagens.map((personagens, key) => {
+            {mock.map((personagens, key) => {
 
                 function Age(){
                     if(personagens.age === 'Unspecified/Elderly' || personagens.age === 'Really Old' || personagens.age === 'Elder' || personagens.age === 'Over 50'){
@@ -92,7 +93,7 @@ export default function CharacterScreen(){
                         return 'Desconhecido';
 
                     }else if(personagens.age.length == '2' || personagens.age.length == '3' || personagens.age.length == '1'){
-                        return personagens.age;
+                        return personagens.age + ' anos';
 
                     }else if(personagens.age === ''){
                         return 'Desconhecido';
@@ -198,9 +199,6 @@ export default function CharacterScreen(){
                     }else if(personagens.name === 'Mei Kusakabe'){ 
                         return <img src={imgMei} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
-                    }else if(personagens.name === 'Mei Kusakabe'){ 
-                        return <img src={imgMei} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
-
                     }else if(personagens.name === 'Tatsuo Kusakabe'){ 
                         return <img src={imgTatsuo} class="max-w-80p max-h-80p rounded-3xl mt-5p ml-11p" alt="personagemStudioGhibli"/>;
 
@@ -298,11 +296,11 @@ export default function CharacterScreen(){
                     
                 }
                 return(
-                    <div className={styles.conteinerCharacters}>
+                    <div class="bg-teal-500 inline-block ml-3.8p mt-2p mb-1p text-center rounded-2xl shadow-emeraldxl hover:bg-sky-500 hover:scale-110">
                         <ImgAlt/>
-                        <p className={styles.textoCharacters}>Nome: {personagens.name}</p>
-                        <p className={styles.textoCharacters}>Gênero: <Gender/></p>
-                        <p className={styles.textoCharacters}>Idade: <Age/></p>
+                        <p class="font-GhibliNormal text-xs">Nome: {personagens.name}</p>
+                        <p class="font-GhibliNormal text-xs">Gênero: <Gender/></p>
+                        <p class="font-GhibliNormal text-xs">Idade: <Age/></p>
                     </div>
                 )
             })}
