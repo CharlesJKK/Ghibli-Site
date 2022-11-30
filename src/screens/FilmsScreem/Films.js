@@ -23,7 +23,7 @@ export default function Films(){
         
         <div class="bg-fundo table w-full bg-center bg-repeat" >
                 <Header/>
-                <div class="bg-gradient-to-r from-blue-900 to-green-700 ml-40 w-70 h-3 rounded-50">
+                <div class="bg-gradient-to-r from-blue-900 to-green-700 w-3/6 m-auto rounded-lg">
                     <h1 class="text-center text-slate-100 font-GhibliNormal m-20 ">
                         Lista de filmes
                     </h1>
